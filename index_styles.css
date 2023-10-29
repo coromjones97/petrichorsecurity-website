@@ -1,0 +1,87 @@
+/* Title */
+
+h1 {
+  background-color: transparent;
+  color: #888888;
+  position: fixed;
+  width: 100%;
+  top: -2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 38px;
+  flex-direction: row;
+}
+
+/* Main Menu */
+
+.horizontal-menu {
+  background-color: transparent;
+  color: #888888;
+  position: fixed;
+  width: 100%;
+  top: 6%;
+  left: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 26px;
+  flex-direction: row;
+}
+
+.horizontal-menu a {
+  color: #888888;
+  text-decoration: none;
+  padding: 1%;
+  display: block;
+}
+
+.horizontal-menu a:hover {
+  background-color: #ccc;
+}
+
+/* Pick Menu */
+
+.pick-menu {
+  background-color: transparent;
+  color: #888888;
+  position: fixed;
+  width: 15%;
+  left: .5%;
+  font-size: 20px;
+  top: 1%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.pick-menu a {
+  color: #888888;
+  text-decoration: none;
+  padding: 0px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.pick-menu a:hover {
+  background-color: #ccc;
+}
+
+/* Main Body */
+
+.pick-body {
+  background-color: transparent;
+  color: #888888;
+  position: fixed;
+  left: 15%;
+  top: 15%;
+  width: 85%;
+  height: 80%;
+  font-size: 20px;
+  justify-content: left;
+  align-items: left;
+}
