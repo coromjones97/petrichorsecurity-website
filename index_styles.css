@@ -1,45 +1,107 @@
+/* General */
+
+body {
+  background-color: #222222;
+}
+
 /* Title */
 
 h1 {
   background-color: transparent;
   color: #888888;
   position: fixed;
-  width: 100%;
+  width: 10%;
   top: -2%;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: left;
   font-size: 38px;
   flex-direction: row;
 }
 
 /* Main Menu */
 
-.horizontal-menu {
+.main-horizontal-menu {
   background-color: transparent;
   color: #888888;
   position: fixed;
-  width: 100%;
-  top: 6%;
-  left: 0%;
+  width: 4%;
+  top: 50%;
+  left: .8%;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  font-size: 30px;
+  flex-direction: column;
+}
+
+.main-horizontal-menu a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #888888;
+}
+
+.main-horizontal-menu a:hover {
+  color: #1E8449;
+  background-color: transparent;
+}
+
+/* Blog Month Menu */
+
+.blog-month-horizontal-menu {
+  background-color: transparent;
+  color: #888888;
+  position: fixed;
+  width: auto;
+  bottom: 35%;
+  right: .8%;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  text-align: right;
+  font-size: 18px;
+  flex-direction: column;
+}
+
+.blog-month-horizontal-menu a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #888888;
+}
+
+.blog-month-horizontal-menu a:hover {
+  color: #1E8449;
+  background-color: transparent;
+}
+
+/* Blog Year Menu */
+
+.blog-year-horizontal-menu {
+  background-color: transparent;
+  color: #888888;
+  position: fixed;
+  width: auto;
+  top: 4.5%;
+  right: 0%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 26px;
+  font-size: 20px;
   flex-direction: row;
 }
 
-.horizontal-menu a {
-  color: #888888;
+.blog-year-horizontal-menu a {
   text-decoration: none;
-  padding: 1%;
-  display: block;
+  background-color: transparent;
+  color: #888888;
 }
 
-.horizontal-menu a:hover {
-  background-color: #ccc;
+.blog-year-horizontal-menu a:hover {
+  color: #1E8449;
+  background-color: transparent;
 }
 
 /* Pick Menu */

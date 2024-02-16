@@ -1,3 +1,3 @@
 Colors
-Silver Gray #888888
+Silver Gray #333333
 Deep Blue #004080
