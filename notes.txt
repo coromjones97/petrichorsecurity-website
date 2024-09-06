@@ -1,3 +1,9 @@
 Colors
-Silver Gray #333333
-Deep Blue #004080
+
+Forest Green: #2C6B4F
+Sky Blue: #87CEEB
+Storm Cloud Gray: #2C2C2C
+Rainy Gray: #B0B0B0
+Deep Blue: #4682B4
+Moss Green: #8A9A5B
+Silver: #C0C0C0

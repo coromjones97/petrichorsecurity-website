@@ -1,7 +1,25 @@
 /* General */
 
+.header-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 12vh;
+  background-color: #2C2C2C;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
 body {
-  background-color: #222222;
+  margin: 0;
+  padding-top: 0;
+  height: 90vh;
+  background-image: url(assets/photos/rain\ on\ pine.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 /* Title */
@@ -9,16 +27,13 @@ body {
 h1 {
   font-family: 'Montserrat', sans-serif;
   background-color: transparent;
-  color: #888888;
-  position: fixed;
-  width: 10%;
-  top: -2%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
-  font-size: 38px;
-  flex-direction: row;
+  color: #2C6B4F;
+  position: absolute;
+  top: 1vh;
+  right: 5vh;
+  margin: 0;
+  font-size: 45px;
+  white-space: nowrap;
 }
 
 /* Main Menu */
@@ -26,192 +41,23 @@ h1 {
 .main-menu {
   font-family: 'Montserrat', sans-serif;
   background-color: transparent;
-  color: #888888;
-  position: fixed;
-  width: 4%;
-  top: 50%;
-  left: 0.25%;
-  transform: translateY(-50%);
-  margin-inline: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: left;
-  text-align: left;
-  font-size: 30px;
-  flex-direction: column;
+  color: #B0B0B0;
+  position: absolute;
+  top: 6vh;
+  right: 5vh;
+  margin: 0;
+  font-size: 38px;
+  white-space: nowrap;
+  flex-direction: row;
 }
 
 .main-menu a {
   text-decoration: none;
   background-color: transparent;
-  color: #888888;
+  color: #B0B0B0;
 }
 
 .main-menu a:hover {
-  color: #1E8449;
+  color: #2C6B4F;
   background-color: transparent;
-}
-
-/* Links Menu */
-
-/* BLOG */
-
-/* Blog Month Menu */
-
-.blog-month-menu {
-  font-family: 'Montserrat', sans-serif;
-  background-color: transparent;
-  color: #888888;
-  position: fixed;
-  width: auto;
-  top: 50%;
-  right: 0.8%;
-  transform: translateY(-50%);
-  margin-right: 2.75%;
-  display: flex;
-  justify-content: center;
-  align-items: right;
-  text-align: right;
-  font-size: 22px;
-  flex-direction: column;
-}
-
-.blog-month-menu a {
-  text-decoration: none;
-  background-color: transparent;
-  color: #888888;
-}
-
-.blog-month-menu a:hover {
-  color: #1E8449;
-  background-color: transparent;
-}
-
-/* Blog Line */
-
-.vertical-line {
-  position: fixed;
-  background-color: #888888;
-  top: 50%;
-  right: 3%;
-  transform: translateY(-50%);
-  width: 2px;
-  height: 40%;
-  z-index: 9999;
-}
-
-/* Blog Year Menu */
-
-.blog-year-menu {
-  font-family: 'Montserrat', sans-serif;
-  background-color: transparent;
-  color: #888888;
-  position: fixed;
-  width: 2%;
-  top: 50%;
-  right: 0.5%;
-  transform: translateY(-50%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-size: 20px;
-  flex-direction: column;
-}
-
-.blog-year-menu a {
-  text-decoration: none;
-  background-color: transparent;
-  color: #888888;
-}
-
-.blog-year-menu a:hover {
-  color: #1E8449;
-  background-color: transparent;
-}
-
-/* Blog Main Page */
-
-.blog-main-title {
-  font-family: 'Montserrat', sans-serif;
-  background-color: transparent;
-  color: #888888;
-  position: fixed;
-  top: 0;
-  left: 0;
-  font-weight: bold;
-  width: 100%;
-  font-size: 50px;
-  text-align: center;
-  padding: 10px 0;
-}
-
-.blog-article-title {
-  font-family: 'Montserrat', sans-serif;
-  background-color: transparent;
-  color: #888888;
-  position: fixed;
-  top: 15%;
-  left: 20%;
-  width: 60%;
-  font-size: 35px;
-  text-align: center;
-}
-
-.blog-article {
-  font-family: 'Montserrat', sans-serif;
-  background-color: transparent;
-  color: #888888;
-  position: fixed;
-  top: 25%;
-  left: 20%;
-  width: 60%;
-  font-size: 25px;
-  text-align: center;
-}
-
-/* PICKS /*
-
-/* Pick Menu */
-
-.pick-menu {
-  background-color: transparent;
-  color: #888888;
-  position: fixed;
-  width: 15%;
-  left: .5%;
-  font-size: 20px;
-  top: 1%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: left;
-}
-
-.pick-menu a {
-  color: #888888;
-  text-decoration: none;
-  padding: 0px;
-  display: block;
-  margin-bottom: 10px;
-}
-
-.pick-menu a:hover {
-  background-color: #ccc;
-}
-
-/* Main Body */
-
-.pick-body {
-  background-color: transparent;
-  color: #888888;
-  position: fixed;
-  left: 15%;
-  top: 15%;
-  width: 85%;
-  height: 80%;
-  font-size: 20px;
-  justify-content: left;
-  align-items: left;
 }
