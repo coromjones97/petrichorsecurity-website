@@ -37,20 +37,6 @@ body {
   flex: 1;
 }
 
-.navigation-bar {
-  position: fixed;
-  width: auto;
-  height: 70px;
-  left: 0;
-  background-color: #2C2C2C;
-  border-top: solid transparent;
-  border-left: solid transparent;
-  border-right: solid transparent;
-  z-index: 1;
-  box-sizing: border-box;
-  border-radius: 20px;
-}
-
 .navigation-menu {
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
