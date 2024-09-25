@@ -94,7 +94,7 @@ body {
   right: 1vh;
 }
 
-/* Media Query for Screens Smaller Than 720px */
+/* Media Query for Screens Smaller Than 1280px */
 @media (max-width: 1280px) {
   .hamburger-menu {
     display: block; /* Show the hamburger menu icon */
@@ -113,10 +113,10 @@ body {
     top: 0;
     right: 0;
     transform: translateX(0);
-    margin-left: 14vh;
+    margin-left: 12vh;
     background-color: #2C6B4F;
     color: #2C2C2C;
-    width: 20vh;
+    width: 15vh;
     z-index: 2;
     gap: 1vh;
     padding-top: 1vh;
