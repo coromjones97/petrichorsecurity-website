@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background-image: url('assets/photos/rain on pine.jpg');
+  background-image: url('/assets/photos/rain\ on\ pine.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -18,7 +18,7 @@ body {
   right: 0;
   margin-top: 1vh;
   margin-right: 1vh;
-  background-color: #2C2C2C;
+  background-color:#2C2C2C;
   border-top: solid transparent;
   border-left: solid transparent;
   border-right: solid transparent;
@@ -57,21 +57,58 @@ body {
   text-align: right;
 }
 
+.blog-navigation-bar {
+  position: fixed;
+  width: 15vh;
+  height: auto;
+  left: 0;
+  margin-top: 210px;
+  margin-left: 1vh;
+  background-color:#2C2C2C;
+  border-top: solid transparent;
+  border-left: solid transparent;
+  border-right: solid transparent;
+  z-index: 1;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.blog-navigation-years {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #87CEEB;
+  background-color: transparent;
+  margin: 1vh;
+  display: flex;
+  gap: 1vh;
+  text-align: left;
+  justify-content: center;
+}
+
+.blog-navigation-months {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: #87CEEB;
+  background-color: transparent;
+  margin: 3vh;
+  text-align: center;
+}
+
 .body {
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
-  position: absolute;
-  width: calc(100% - 2vh);
+  position: fixed;
+  width: auto;
   height: auto;
-  background-color: #2C2C2C;
+  background-color:#2C2C2C;
   border-top: solid transparent;
   border-left: solid transparent;
   border-right: solid transparent;
   z-index: 0;
   border-radius: 20px;
-  color: #2C6B4F;
+  color: #87CEEB;
   top: 210px;
-  left: 1vh;
+  left: 17vh;
   right: 1vh;
   box-sizing: border-box;
   padding-top: 1vh;
