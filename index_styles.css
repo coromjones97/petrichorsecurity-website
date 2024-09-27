@@ -14,7 +14,7 @@ body {
 .title-bar {
   position: fixed;
   width: auto;
-  height: 140px;
+  height: 180px;
   right: 0;
   margin-top: 1vh;
   margin-right: 1vh;
@@ -37,6 +37,15 @@ body {
   flex: 1;
 }
 
+.motto {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #87CEEB;
+  background-color: transparent;
+  margin: 1vh;
+  text-align: right;
+}
+
 .navigation-menu {
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
@@ -48,7 +57,7 @@ body {
   text-align: right;
 }
 
-.main-body {
+.body {
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   position: absolute;
@@ -61,12 +70,20 @@ body {
   z-index: 0;
   border-radius: 20px;
   color: #2C6B4F;
-  top: 180px;
+  top: 210px;
   left: 1vh;
   right: 1vh;
   box-sizing: border-box;
   padding-top: 1vh;
-  padding-left: 5%;
+  padding-right: 2vh;
+  padding-left: 2vh;
+}
+
+.main-header {
+  text-align: right;
+}
+
+.main-body {
   text-align: left;
 }
 
